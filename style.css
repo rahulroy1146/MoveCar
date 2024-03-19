@@ -1,0 +1,463 @@
+body {
+    margin: 0;
+}
+
+.header-top {
+    background-color: #0fc2a1;
+}
+
+.message a,
+.phone a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(73, 71, 71);
+    padding-top: 5px;
+    margin: 0;
+}
+
+.logo li {
+    list-style-type: none;
+}
+
+.logo li+li {
+    margin-left: 14px;
+}
+
+
+/* NAVBAR */
+
+.navbar_background {
+    background-color: #fff;
+}
+
+
+/* .navbar-nav li+li {
+    padding-left: 20px;
+} */
+
+.nav-link:hover {
+    background-color: #0fc2a1;
+}
+
+.nav-link {
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(43, 39, 39);
+    line-height: 2.333;
+    text-align: justifyLeft;
+    background-color: #0fc2a1 !important;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+
+/* CAROUSEL */
+
+.check_box {
+    position: absolute;
+    background-color: #a2e441;
+    right: 10%;
+    bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.check_box h2 {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.passport {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+}
+
+.align-items-center {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+
+/* WELCOME */
+
+.welcome h2 {
+    font-size: 22px;
+    font-family: "Arial";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.273;
+    text-align: center;
+}
+
+.welcome p {
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(74, 73, 73);
+    line-height: 2;
+    text-align: center;
+}
+
+.readmore {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(255, 4, 4);
+    font-weight: bold;
+    line-height: 1.867;
+    text-align: center;
+}
+
+.line {
+    overflow: hidden;
+    text-align: center;
+}
+
+.line:before,
+.line:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 20%;
+}
+
+.line:before {
+    right: 0.5em;
+    margin-left: 25%;
+}
+
+.line:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+/* OUR SERVISES */
+
+.our_services {
+    background-color: #0fc2a1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.our_servises_header h2 {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.167;
+}
+
+.slider .visa {
+    position: relative;
+    margin-top: -30px;
+    z-index: 1000;
+    background-color: black;
+    opacity: 0.6;
+    /* margin-right: 14px; */
+    font-size: 14px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.556;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.slider_inline {
+    display: inline-block;
+}
+
+.slick_img {
+    width: 220px;
+    height: 180px;
+}
+
+.slick_imgg {
+    width: 220px;
+    height: 160px;
+}
+
+
+/* TOP DESTINATIONS */
+
+.top_cars {
+    background-image: url("images/footer_image.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.top_cars_header {
+    border-bottom: 2px solid #0fc2a1;
+    margin-bottom: 20px;
+}
+
+.top_cars_header h2 {
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.167;
+    text-align: justifyLeft;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.75);
+}
+
+.background {
+    border: 1px solid #e3e4e4;
+    margin-left: 15px;
+}
+
+.background p {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Arial";
+    color: rgb(84, 81, 81);
+    font-weight: bold;
+    line-height: 1.3;
+    padding-top: 20px;
+}
+
+.read {
+    background-color: #4a4949;
+    padding-top: -5px;
+    margin-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.read a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.blue {
+    background-color: #063c5f;
+}
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.list {
+    list-style-type: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.533;
+    text-align: left;
+}
+
+.list a {
+    text-decoration: none;
+    color: white;
+}
+
+.social img {
+    margin-left: 20px;
+}
+
+.search h3 {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.192;
+}
+
+.search p {
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.533;
+}
+
+.form-control {
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.2;
+}
+
+.butttt {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 10px;
+    width: 119px;
+    height: 41px;
+}
+
+
+/* DARK FOOTER */
+
+.dark {
+    background-color: #2d2d2d;
+}
+
+.dark_footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+@media (max-width: 1224px) {
+    .form-control {
+        padding-right: 100%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-link {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .overlay {
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(100, 100, 100, 0.5);
+        z-index: 1000;
+        display: none;
+    }
+    .nav_content {
+        position: fixed;
+        width: 0;
+        top: 0;
+        right: 0;
+        height: 100%;
+        background-color: black;
+        z-index: 1001;
+    }
+    .nav-link :hover {
+        background-color: #0fc2a1;
+    }
+    .background p {
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .message p,
+    .phone p {
+        font-size: 10px;
+    }
+    .malabar_logo {
+        width: 120px;
+        height: 40px;
+    }
+    .navbar-toggler {
+        font-size: small;
+    }
+    .welcome h2 {
+        font-size: 18px;
+    }
+    .welcome p {
+        font-size: 12px;
+    }
+    .check_box {
+        left: 34%;
+    }
+    .check {
+        font-size: small;
+    }
+    .check_box h2 {
+        font-size: 14px;
+    }
+    .passport {
+        font-size: 12px;
+    }
+    .footer_a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 548px) {
+    .check_box {
+        margin-top: 10px;
+        width: 40%;
+        left: 54%;
+    }
+    .check_box h2 {
+        font-size: 12px;
+    }
+    .passport {
+        font-size: 10px;
+    }
+    .malabar_logo {
+        width: 110px;
+        height: 35px;
+    }
+    .footer_a {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 502px) {
+    .check_box {
+        margin-top: 10px;
+        width: 50%;
+        left: 44%;
+    }
+    .check_box h2 {
+        font-size: 10px;
+    }
+    .passport {
+        font-size: 8px;
+    }
+    .align-items-center {
+        padding: 0;
+    }
+    .check {
+        margin-top: 5px;
+        font-size: 6px;
+    }
+    .form-control {
+        height: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .footer_a {
+        font-size: 6px;
+    }
+    .check_box {
+        margin-top: 10px;
+        width: 65%;
+        left: 24%;
+    }
+    .form-control {
+        font-size: small;
+    }
+    ..line:before,
+    .line:after {
+        width: 20%;
+    }
+}
